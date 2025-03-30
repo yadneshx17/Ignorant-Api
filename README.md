@@ -30,6 +30,8 @@ docker build -t ignorant-api .
 docker run -d -p 8000:8000  ignorant-api
 ```
 
+
+
 ## API Usage
 ### Endpoint
 ```

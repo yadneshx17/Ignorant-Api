@@ -21,6 +21,7 @@ WORKDIR /app
 # Copy application files
 COPY app app
 COPY requirements.txt .
+COPY .env .env
 
 # Install Python dependencies inside the virtual environment
 RUN /app/venv/bin/pip install --no-cache-dir -r requirements.txt
